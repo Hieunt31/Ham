@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ, kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không. 
+        //Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1. 
+        let x = prompt('Nhập 1 ký tự');
+        let arr = [1, 2, 3, 4, 5];
+        function Timkytu(x) {
+            for (let i = 0; i < arr.length; i++) {
+                if (x === arr[i]) {
+                    return i;
+                }
+            }
+        }
+        Timkytu(2);
+    </script>
+</body>
+
+</html>
